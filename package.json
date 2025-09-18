@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  },
+  "name": "movie-recommendation-system",
+  "version": "1.0.0",
+  "description": "Movie Recommendation System",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KavishkaVenuka/Movie-Recommendation-System.git"
+  },
+  "author": "kavishka venuka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KavishkaVenuka/Movie-Recommendation-System/issues"
+  },
+  "homepage": "https://github.com/KavishkaVenuka/Movie-Recommendation-System#readme"
+}
