@@ -1,13 +1,16 @@
 {
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^17.2.2",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "nodemin": "^1.0.1"
   },
   "name": "movie-recommendation-system",
   "version": "1.0.0",
   "description": "Movie Recommendation System",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
+    "run-dev":"nodemon /src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/KavishkaVenuka/Movie-Recommendation-System/issues"
   },
-  "homepage": "https://github.com/KavishkaVenuka/Movie-Recommendation-System#readme"
+  "homepage": "https://github.com/KavishkaVenuka/Movie-Recommendation-System#readme",
+  "type": "module"
 }
