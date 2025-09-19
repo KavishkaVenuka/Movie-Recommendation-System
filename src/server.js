@@ -9,6 +9,9 @@ const app = Express();
 const PORT = process.env.PORT  ||5000;
 const HOST = process.env.HOST|| "127.0.0.1";
 
+//define the  global middleware 
+app.use(Express.json());
+
 app.use("/api/user/auth", authRoutes);
 
 const server = app.listen(PORT, HOST, (req,res) => {
